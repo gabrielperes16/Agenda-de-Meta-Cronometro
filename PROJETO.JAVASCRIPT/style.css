@@ -27,22 +27,20 @@ body {
 
 
 .titulo-principal {
-    text-align: left;
+    text-align: center;
     width: 100%;
     font-size: 32px;
-}
-.titulo-principal span {
-color: #6FFF57;
+    color: var(--verde);
 }
 
 .botao {
-    font-family: "Crakra Petch", sans-serif;
+    font-family: "Roboto Mono", monospace;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
     justify-content: center;
     padding: 1em;
-    font-size: 18px;
+    font-size: 22px;
     align-items: center;
     width: 100%;
     border-bottom: 2px solid var(--botao-ativo);
@@ -50,15 +48,20 @@ color: #6FFF57;
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
-.botao:first-child{
-border-radius: 40px 40px 0 0;
+.botao.ativo {
+ background-color: var(--botao-ativo);
+ border-bottom: 4px solid var(--verde);
 
 }
 
+.botao:first-child{
+border-radius: 40px 40px 0 0;
+}
 
 .botoes {
 display: block;
 }
+
 @media screen and (min-width: 768px){
    .botoes {
     display: flex;
@@ -69,5 +72,25 @@ display: block;
     .botao:last-child{
         border-radius: 0 40px 0 0;
     }
-
+}
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.aba-conteudo.ativo {
+  display: block;
+}
+.aba-conteudo {
+ display: none;
+}
+.aba-conteudo-titulo-principal {
+font: 28px;
+text-align: center;
+font-family: "Roboto Mono", monospace;
+}
+.aba-conteudo-titulo-secundario {
+text-align: center;
+color: var(--verde);
+text-transform: uppercase;
 }
