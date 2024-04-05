@@ -16,6 +16,27 @@ body {
     font-family: 'Chakra Petch', sans-serif;
 }
 
+
+.p {
+ font-family: 'Chakra Petch', sans-serif;;
+ font-size: 10px;
+ border-radius: 4px solid;
+ width: 10ch;
+ white-space: nowrap;
+ overflow: hidden;
+
+
+}
+@keyframes typing {
+    from {
+        windth:10px;
+
+    }
+
+}
+
+}
+
 .imagens {
     background-image: url(imagens/wallpaper.jpg);
     min-height: auto;
