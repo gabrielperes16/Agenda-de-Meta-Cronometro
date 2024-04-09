@@ -11,40 +11,12 @@
 }
 
 body {
+    background-image: url(imagens/wp4676574-4k-pc-wallpapers.jpg);
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
-}
-
-
-.p {
- font-family: 'Chakra Petch', sans-serif;;
- font-size: 10px;
- border-radius: 4px solid;
- width: 10ch;
- white-space: nowrap;
- overflow: hidden;
-
-
-}
-@keyframes typing {
-    from {
-        windth:10px;
-
-    }
-
-}
-
-}
-
-.imagens {
-    background-image: url(imagens/wallpaper.jpg);
-    min-height: auto;
-    min-width: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 3%;
-
+    background-size: cover;
+    
 }
 
 .conteudo-principal {
@@ -59,10 +31,12 @@ body {
     bottom: 0;
     top: 0;
     right: 0;
+    left: 0;
     margin: auto;
 
 
 }
+
 
 .titulo-principal {
     text-align: left;
@@ -142,7 +116,7 @@ body {
     
     text-align: center;
     min-width: 100px;
-    height: 360px;
+    height: 300px;
 }
 
 .contador-digito-numero {
@@ -152,6 +126,7 @@ body {
 }
 
 .contador-digito-texto {
+    
     color: var(--verde);
     font-size: 32px;
     margin: 0;
