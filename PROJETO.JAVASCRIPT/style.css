@@ -11,7 +11,8 @@
 }
 
 body {
-    background-image: url(imagens/wp4676574-4k-pc-wallpapers.jpg);
+    background-image: url("https://wallpapercave.com/wp/wp4676574.jpg");
+    background: repeat 1;
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
