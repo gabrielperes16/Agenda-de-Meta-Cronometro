@@ -1,8 +1,8 @@
-const botoes= document.querySelectorAll(".botao");
-const textos= document.querySelectorAll(".aba-conteudo");
-const contadores= document.querySelectorAll(".contador");
-
-const objetivos= [
+const botoes = document.querySelectorAll(".botao");
+const textos = document.querySelectorAll(".aba-conteudo");
+const contadores = document.querySelectorAll(".contador");
+// MUDAR DATAS :
+const objetivos = [
     new Date("2024-08-07T00:00:00"),
     new Date("2024-08-07T00:00:00"),
     new Date("2024-07-07T00:00:00"),
@@ -10,7 +10,7 @@ const objetivos= [
 ];
 
 function calculaTempo(tempoObjetivo) {
-    const tempoAtual= new Date();
+    const tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
     if (tempoFinal < 0) tempoFinal = 0;
     const segundos = Math.floor(tempoFinal / 1000) % 60;
